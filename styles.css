@@ -1,0 +1,218 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(135deg, #9d00c6, #00ffed);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+section {
+    padding: 3rem;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-codigo {
+    width: 450px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10%; 
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    display: block; /* Centraliza a imagem */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.right-align {
+    text-align: right;
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+article {
+    margin: 20px 0;
+}
+
+h3 {
+    color: #6a11cb; /* Cor dos títulos das seções */
+    font-size: 1.25rem;
+}
+
+nav#social-media {
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Espaçamento externo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+nav#social-media h2 {
+    font-size: 1.5rem; /* Tamanho do título */
+    color: #333; /* Cor do texto */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+    font-weight: 600; /* Tamanho da fonte em negrito */
+}
+
+nav#social-media ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+nav#social-media li {
+    margin: 10px 0; /* Espaçamento entre itens da lista */
+}
+
+nav#social-media a {
+    display: inline-block; /* Faz o link se comportar como um bloco */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    color: #ffffff; /* Cor do texto */
+    background-color: #0077b5; /* Cor de fundo do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    transition: background-color 0.3s, transform 0.3s; /* Efeito de transição */
+}
+
+nav#social-media a:hover {
+    background-color: #005582; /* Cor de fundo ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+form {
+    margin-top: 2rem;
+}
+
+.simple-radio-group, .simple-checkbox-group {
+    display: flex;
+    flex-direction: column; /* Cada item em uma nova linha */
+    gap: 10px; /* Espaçamento entre os itens */
+    margin-top: 10px;
+}
+
+/* Espaçamento extra entre seções de gênero, interesses e caixas de texto */
+.form-group {
+    margin-bottom: 25px; /* Aumenta a separação entre os grupos */
+}
+
+.simple-radio-group label, .simple-checkbox-group label {
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.simple-radio-group input[type="radio"], 
+.simple-checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Aumenta um pouco o tamanho dos botões para conforto visual */
+}
+
+/* Estilo para as caixas de texto (Nome, E-mail, Mensagem) */
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Garante que as caixas de texto ocupem toda a largura do contêiner */
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    margin-bottom: 25px; /* Espaçamento entre as caixas de texto */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+button {
+    margin-top: 15px;
+    background-color: #6a11cb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Garante que o botão ocupe toda a largura do contêiner */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+button:hover {
+    background-color: #2575fc;
+}
+
+footer {
+    background-color: #f4f4f4; /* Cor de fundo leve */
+    padding: 10px 0; /* Padding reduzido para um rodapé menor */
+    text-align: center; /* Centraliza o texto */
+    font-size: 0.875rem; /* Tamanho da fonte menor */
+    color: #333; /* Cor do texto */
+    border-top: 1px solid #ddd; /* Borda superior sutil */
+    margin-top: 20px; /* Espaçamento superior para separar do conteúdo acima */
+}
+
+footer a {
+    color: #6a11cb; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

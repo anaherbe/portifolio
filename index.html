@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ana Rita Guimarães Graminha</title>
+    <!-- Link para a fonte moderna Poppins do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Link para o arquivo CSS separado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Cabeçalho com navegação -->
+<header>
+    <h1>Ana Rita Guimarães Graminha</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#experience">Experiência Profissional</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Seção Sobre -->
+<section id="about">
+    <h2>Sobre Mim</h2>
+    <p>Olá, meu nome é <strong>Ana Rita Guimarães Graminha</strong>.Sou uma estudante de Análise e Desenvolvimento de Sistemas, focada em aprender e explorar novas tecnologias. Tenho grande interesse em <em>desenvolver soluções criativas</em> e estou determinada a evoluir constantemente em minha jornada profissional.</p>
+    <p class="right-align">Sempre em busca de aprimorar meus conhecimentos e superar desafios, acredito que a tecnologia é um meio poderoso para transformar o mundo e criar novas oportunidades. Tenho certificações em habilidades digitais e midiáticas pelo Google for Education, domínio de inglês no nível B2 pelo teste de proficiência Cambridge, e conhecimento básico em Python através de um curso de extensão universitária pela USP São Carlos. Além disso, sou proficiente em ambientes Windows e macOS, o que complementa meu perfil técnico e me permite trabalhar de forma eficaz em diferentes plataformas.</p>
+    <img src="https://blog.xpeducacao.com.br/wp-content/uploads/2022/07/analise-e-desenvolvimento-de-sistemas-o-que-faz.jpg" alt="Um código em uma tela que reflete meu interesse e área de atuação." class="imagem-codigo">
+</section>
+
+
+<!-- Seção Habilidades -->
+<section id="skills">
+    <h2>Habilidades</h2>
+
+    <!-- Lista ordenada de habilidades -->
+    <ol>
+        <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
+        <li>Habilidades Digitais e Midiáticas certificadas pelo Google for Education</li>
+        <li>Inglês Nível B2 no teste de proficiência Cambridge</li>
+        <li>Python Básico no curso de extensão universitária pela USP São Carlos</li>
+    </ol>
+
+    <!-- Lista não ordenada de interesses/hobbies -->
+    <h3>Interesses</h3>
+    <ul>
+        <li>Jogos eletrônicos</li>
+        <li>Web design</li>
+        <li>Design gráfico</li>
+        <li>Fotografia</li>
+        <li>Exploração de novas tecnologias</li>
+    </ul>
+
+    <!-- Tabela de habilidades em tecnologias -->
+    <table>
+        <thead>
+            <tr>
+                <th>Tecnologia</th>
+                <th>Nível</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Windows</td>
+                <td>Avançado</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Intermediário</td>
+            </tr>
+            <tr>
+                <td>macOS</td>
+                <td>Intermediário</td>
+            </tr>
+            <tr></tr>
+                <td>C</td>
+                <td>Intermediário</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Básico</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Básico</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<article id="projects">
+
+    <section class="projects">
+        <h2>Projetos</h2>
+        <h3><strong>Landing Page Pessoal</strong></h3>
+        <p>Desenvolvi uma landing page pessoal para exibir minhas habilidades e projetos. O site é construído com HTML e CSS projetado para ser visualmente atraente e funcional. A landing page inclui seções sobre mim, habilidades, experiências e projetos, bem como um formulário de contato integrado.</p>
+    </section>
+</article>
+
+<article id="experience">
+
+    <section class="experience">
+        <h2>Experiência Profissional</h2>
+        <p>Atualmente, estou em busca de um estágio na área de desenvolvimento de sistemas para aplicar e expandir minhas habilidades adquiridas durante meus estudos e projetos pessoais.</p>
+    </section>
+</article>
+
+<nav id="social-media">
+    <h2>Conecte-se Comigo</h2>
+    <ul>
+        <li><a 
+        href="https://www.linkedin.com/in/ana-rita-guimar%C3%A3es-graminha-90b535300/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    </ul>
+</nav>
+
+<!-- Seção de Contato -->
+<section id="contact">
+    <h2>Contato</h2>
+
+    <!-- Link para perfil no GitHub -->
+    <p>Confira meu perfil no <a href="https://github.com/anaherbe" target="_blank">GitHub</a> para mais detalhes sobre meus projetos.</p>
+
+    <!-- Formulário de contato integrado com o Formspree.io -->
+    <form 
+        action="https://formspree.io/f/xzzpqwvv" 
+        method="POST"
+        >
+        <input type="text" name="name" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu E-mail" required>
+        
+        <!-- Gênero com layout simples -->
+        <div class="form-group">
+            <label>Gênero:</label>
+            <div class="simple-radio-group">
+                <label><input type="radio" name="gender" value="masculino" required> Masculino</label>
+                <label><input type="radio" name="gender" value="feminino" required> Feminino</label>
+                <label><input type="radio" name="gender" value="outro" required> Outro</label>
+            </div>
+        </div>
+
+        <!-- Interesses com layout simples -->
+        <div class="form-group">
+            <label>Interesses:</label>
+            <div class="simple-checkbox-group">
+                <label><input type="checkbox" name="interest" value="desenvolvimento"> Desenvolvimento</label>
+                <label><input type="checkbox" name="interest" value="design"> Design</label>
+                <label><input type="checkbox" name="interest" value="banco-de-dados"> Banco de Dados</label>
+            </div>
+        </div>
+
+        <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- Rodapé -->
+<footer>
+    <p>© 2024 Ana Rita Guimarães Graminha. Todos os direitos reservados.</p>
+    <p>Para contato: <a href="mailto:graminhaanarita@gmail.com">graminhaanarita@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
